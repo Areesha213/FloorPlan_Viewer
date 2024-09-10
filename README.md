@@ -1,19 +1,19 @@
-2D Floorplan Viewer
-Overview
+2D Floorplan Viewer:
+Overview:
 The 2D Floorplan Viewer is a web-based application that visualizes a floorplan based on data provided in JSON format. Users can interact with the floorplan by navigating, zooming in and out, and viewing details about furniture items on hover.
 
-Features
+Features:
 Navigation: Drag to move around the floorplan.
 Zoom: Use the mouse wheel to zoom in and out.
 Hover Feature: Hover over furniture to see its name.
 Save Layout: Save the current layout to local storage.
 Load Layout: Load a previously saved layout from local storage.
 
-File Structure
+File Structure:
 index.html: The main HTML file for the application.
 styles.css: The CSS file for styling the application.
 script.js: The JavaScript file containing the logic for the floorplan viewer.
-Usage
+Usage:
 Interacting with the Floorplan
 
 Zoom: Scroll up to zoom in, scroll down to zoom out.
