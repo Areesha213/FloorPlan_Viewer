@@ -1,0 +1,56 @@
+{
+  "Regions": [
+      // Outer walls
+      [{ "X": 100, "Y": 100, "Z": 52 }, { "X": 1100, "Y": 100, "Z": 52 }],
+      [{ "X": 1100, "Y": 100, "Z": 52 }, { "X": 1100, "Y": 700, "Z": 52 }],
+      [{ "X": 1100, "Y": 700, "Z": 52 }, { "X": 100, "Y": 700, "Z": 52 }],
+      [{ "X": 100, "Y": 700, "Z": 52 }, { "X": 100, "Y": 100, "Z": 52 }],
+      // Interior walls
+      [{ "X": 300, "Y": 100, "Z": 52 }, { "X": 300, "Y": 400, "Z": 52 }],
+      [{ "X": 300, "Y": 400, "Z": 52 }, { "X": 800, "Y": 400, "Z": 52 }],
+      [{ "X": 800, "Y": 400, "Z": 52 }, { "X": 800, "Y": 100, "Z": 52 }],
+      [{ "X": 800, "Y": 400, "Z": 52 }, { "X": 800, "Y": 700, "Z": 52 }],
+      [{ "X": 500, "Y": 400, "Z": 52 }, { "X": 500, "Y": 700, "Z": 52 }]
+  ],
+  "Doors": [
+      { "Location": { "X": 600, "Y": 100, "Z": 52 }, "Rotation": 0, "Width": 50 },
+      { "Location": { "X": 300, "Y": 250, "Z": 52 }, "Rotation": Math.PI / 2, "Width": 40 },
+      { "Location": { "X": 800, "Y": 250, "Z": 52 }, "Rotation": Math.PI / 2, "Width": 40 },
+      { "Location": { "X": 500, "Y": 550, "Z": 52 }, "Rotation": Math.PI / 2, "Width": 40 },
+      { "Location": { "X": 950, "Y": 700, "Z": 52 }, "Rotation": Math.PI, "Width": 60 }
+  ],
+  "Furnitures": [
+      {
+          "MinBound": { "X": -20, "Y": -40, "Z": 0 },
+          "MaxBound": { "X": 20, "Y": 40, "Z": 3 },
+          "equipName": "Sofa",
+          "xPlacement": 400,
+          "yPlacement": 300,
+          "rotation": 0
+      },
+      {
+          "MinBound": { "X": -15, "Y": -15, "Z": 0 },
+          "MaxBound": { "X": 15, "Y": 15, "Z": 7 },
+          "equipName": "Dining Table",
+          "xPlacement": 800,
+          "yPlacement": 500,
+          "rotation": Math.PI / 4
+      },
+      {
+          "MinBound": { "X": -10, "Y": -10, "Z": 0 },
+          "MaxBound": { "X": 10, "Y": 10, "Z": 5 },
+          "equipName": "Chair",
+          "xPlacement": 750,
+          "yPlacement": 450,
+          "rotation": Math.PI / 2
+      },
+      {
+          "MinBound": { "X": -25, "Y": -10, "Z": 0 },
+          "MaxBound": { "X": 25, "Y": 10, "Z": 4 },
+          "equipName": "Bed",
+          "xPlacement": 300,
+          "yPlacement": 600,
+          "rotation": 0
+      }
+  ]
+};
